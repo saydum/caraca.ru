@@ -1,0 +1,17 @@
+{
+    "name": "saydum/site-policy",
+    "description": "Пакет для вывода политики сайта в модальном окне",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Saydum\\SitePolicy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saydum\\SitePolicy\\SitePolicyServiceProvider"
+            ]
+        }
+    }
+}
